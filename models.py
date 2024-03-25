@@ -15,8 +15,9 @@ class MyModel(nn.Module):
 
         self.block = nn.Sequential(
                     self.lin1,
+                    self.act,
                     self.dropout,
-                    self.lin2,
+                    self.lin2                
                 )
 
 
